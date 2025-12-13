@@ -1,0 +1,476 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: arial;
+}
+
+header{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.inHeaderOne{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.inHeaderTwo{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.inHeaderThree{
+    width: 30%;
+    height: 60px;
+    display: inline-block;
+    text-align: right;
+    vertical-align: middle;
+    padding-right: 20px;
+}
+
+.whiteLogo{
+    height: 25px;
+    margin-left: 30px;
+}
+
+.jText{
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+a:hover{
+    color: #3693cb;
+}
+
+.logAndSign{
+    color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: white;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.logAndSign:hover{
+    cursor: pointer;
+    background-color: white;
+    color: #3693cb;
+    font-weight: bold;
+}
+
+.landingBox{
+    width: 100%;
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 40px;
+}
+
+.firstGrid{
+    display: inline-block;
+}
+
+.secondGrid{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.firstGridText{
+    color: white;
+    margin-left: 30px;
+    font-size: 300%;
+    line-height: 65px;
+    margin-bottom: 0;
+}
+
+.getStarted{
+    background-color: white;
+    border: none;
+    color: #3693cb;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 18px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+
+.getStarted:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.subSecond{
+    display: flex;
+    align-items: center;
+}
+
+.html{
+    width: 100px;
+    margin-left: 60px;
+}
+
+.blueLink{
+    color: #3693cb;
+}
+
+.newHeader{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    top: 0;
+}
+
+.jbText{
+    color: black;
+    font-weight: bold;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.logSign{
+    color: #3693cb;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #3693cb;
+    background-color: transparent;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
+}
+
+.logSign:hover{
+    cursor: pointer;
+    background-color: #3693cb;
+    color: white;
+    font-weight: bold;
+}
+
+.two{
+    color: black;
+}
+
+.firstDiv{
+    width: 100%;
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.bigTextOne{
+    font-size: 250%;
+    font-weight: bold;
+    margin-left: 30px;
+    line-height: 52px;
+    margin-bottom: 0;
+}
+
+.textContainer{
+    display: inline-block;
+}
+
+.spiralContainer{
+    display: flex;
+    align-items: center;
+}
+
+.blueSpiral{
+    width: 300px;
+    margin-left: 60px;
+}
+
+.contactUsButton{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 20px;
+    margin-top: 30px;
+    background-color: #3693cb;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.vodButton{
+    background-color: white;
+    border-color: #3693cb;
+    border-width: 1px;
+    border-style: solid;
+    color: #3693cb;
+    font-size: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 5px;
+}
+
+.contactUsButton:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.vodButton:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.ltcDiv{
+    background-color: #3693cb;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-top: 40px;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+}
+
+.ltcLogo{
+    height: 30px;
+    opacity: 0.7;
+}
+
+.serviceDiv{
+    width: 100%;
+    display: block;
+    text-align: center;
+}
+
+.blueBro{
+    width: 100%;
+    height: 80px;
+}
+
+.bigTextTwo{
+    color: black;
+    font-weight: bold;
+    font-size: 250%;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.normalText{
+    color: black;
+    font-size: 220%;
+    margin-top: 0;
+    line-height: 45px;
+}
+
+.twoBox{
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    outline: 2px solid #3693cb;
+    border-radius: 30px;
+    display: inline-block;
+    margin-top: 30px;
+    margin-right: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    vertical-align: middle;
+}
+
+.blueGraphic{
+    width: 80px;
+    margin-top: 70px;
+}
+
+.logText{
+    color: black;
+    font-size: 200%;
+}
+
+.clientBox{
+    background-color: white;
+    display: inline-block;
+    width: 350px;
+    height: 300px;
+    outline: 2px solid #3693cb;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    vertical-align: middle;
+    text-align: left;
+    padding-top: 40px;
+    padding-left: 30px;
+}
+
+.star{
+    width: 20px;
+    display: inline-block;
+}
+
+.smallText{
+    font-size: 120%;
+}
+
+.oicon{
+    width: 60px;
+}
+
+.fDiv{
+    display: block;
+}
+
+.sDiv{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.tDiv{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.sbt{
+    font-weight: bold;
+    margin-left: 10px;
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.sst{
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 10px;
+}
+
+footer{
+    background-color: #3A3E49;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+    vertical-align: top;
+    justify-content: space-between;
+}
+
+.footOne{
+    width: 30%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.profileDiv{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.profile{
+    width: 60px;
+}
+
+.fFirst{
+    display: inline-block;
+    text-align: left;
+    vertical-align: middle;
+}
+
+.bBigText{
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+.bSmallText{
+    color: white;
+    margin-top: 5px;
+    margin-bottom: 0;
+    margin-left: 10px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fSecond{
+    text-align: left;
+    margin-left: 80px;
+    margin-top: 10px;
+}
+
+.footTwo{
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: left;
+    margin-right: 100px;
+}
+
+.contactDiv{
+    margin-top: 10px;
+}
+
+.contact{
+    width: 22px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.firstAbout{
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-top: 60px;
+}
+
+#mast{
+    margin-top: 80px;
+}
+
+.pictures{
+    height: 350px;
+    margin-right: 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.service{
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
