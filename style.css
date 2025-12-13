@@ -1,0 +1,82 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.pageBody{
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+
+.phoneBody{
+    width: 350px;
+    height: 600px;
+    border-style: solid;
+    display: inline-block;
+    margin-top: 10px;
+    border-width: 6px;
+    border-radius: 40px;
+    background-color: black;
+}
+
+.displayScreen{
+    width: 346px;
+    height: 100px;
+    background-color: black;
+    margin-top: 30px;
+    border: none;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    pointer-events: none;
+}
+
+.upperLeft{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(165, 165, 165);
+    color: black;
+    font-weight: bolder;
+    border-style: none;
+}
+
+.mainLeft{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-weight: bolder;
+    border-style: none;
+}
+
+.rightControl{
+    border-radius: 100%;
+    width: 70px;
+    height: 70px;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    font-weight: bolder;
+    border-style: none; 
+}
+
+button{
+    margin-top: 20px;
+    margin-right: 5px;
+}
+
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.zeroKey{
+    width: 145px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    border: none;
+    height: 70px;
+    border-radius: 60px;
+}
