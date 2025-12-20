@@ -4,6 +4,7 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     font-family: arial;
+    height: 100vh;
 }
 
 header{
@@ -473,4 +474,123 @@ footer{
     height: 100px;
     margin-bottom: 20px;
     margin-top: 50px;
+}
+
+.fullContainer{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginBox{
+    width: 350px;
+    height: 400px;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    border-style: solid;
+    border-color: #333;
+    border-width: 2px;
+}
+
+.loginTextDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    margin-top: 20px;
+}
+
+.loginText{
+    color: white;
+    font-size: 150%;
+    font-weight: bold;
+}
+
+.inputDiv{
+    display: inline-block;
+    width: 100%;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.mainInputBox{
+    width: 80%;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: inline-block;
+    margin-bottom: 10px;
+    border-radius: 40px;
+    font-size: 17px;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    background-color: transparent;
+}
+
+.mainInputBox::placeholder{
+    color: white;
+}
+
+.forgotPasswordDiv{
+    display: flex;
+    padding-left: 30px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.forgotPasswordText{
+    color: white;
+    font-size: 15px;
+}
+
+.forgotPasswordText:hover{
+    color: white;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.loginButtonDiv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.loginButton{
+    border-style: none;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 87%;
+    border-radius: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.signupQuestionDiv{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 10px;
+}
+
+.accountQuestion{
+    color: white;
+}
+
+.signupLink{
+    color: white;
+    font-size: 15px;
+}
+
+.signupLink:hover{
+    color: white;
+    text-decoration: underline;
 }
