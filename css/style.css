@@ -94,11 +94,13 @@ a:hover{
 
 .firstGrid{
     display: inline-block;
+    width: 850px;
 }
 
 .secondGrid{
     display: grid;
     grid-template-columns: auto auto;
+    margin-right: 30px;
 }
 
 .firstGridText{
@@ -205,6 +207,7 @@ a:hover{
 
 .textContainer{
     display: inline-block;
+    margin-top: 0;
 }
 
 .spiralContainer{
@@ -215,6 +218,7 @@ a:hover{
 .blueSpiral{
     width: 300px;
     margin-left: 60px;
+    margin-right: 30px;
 }
 
 .contactUsButton{
@@ -295,6 +299,8 @@ a:hover{
     font-size: 220%;
     margin-top: 0;
     line-height: 45px;
+    margin-left: 30px;
+    margin-right: 30px;
 }
 
 .twoBox{
@@ -434,11 +440,12 @@ footer{
 }
 
 .footTwo{
-    width: 30%;
+    width: 40%;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: left;
     margin-right: 100px;
+    background-color: red;
 }
 
 .contactDiv{
@@ -599,4 +606,108 @@ footer{
     width: 100%;
     height: 40px;
     display: flex;
+}
+
+.userAndMenu{
+    display: none;
+}
+
+.extraSpace{
+    display: block;
+    width: 100%;
+    height: 50px;
+}
+
+@media (max-width: 768px){
+    .inHeaderTwo{
+        display: none;
+    }
+
+    .inHeaderThree{
+        display: none;
+    }
+
+    .userAndMenu{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-right: 20px;
+    }
+
+    .user{
+        width: 25px;
+        height: 25px;
+        margin-right: 20px;
+    }
+
+    .user:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+
+    .menu{
+        width: 25px;
+        height: 20px;
+    }
+
+    .menu:hover{
+        cursor: pointer;
+        opacity: 0.5;
+    }
+
+    .landingBox{
+        display: block;
+    }
+
+    .firstGrid{
+        display: inline-block;
+        width: 100vw;
+    }
+
+    .secondGrid{
+        display: none;
+    }
+
+    .firstGridText{
+        margin-right: 20px;
+        font-size: 280%;
+    }
+
+    .firstDiv{
+        display: block;
+    }
+
+    .spiralContainer{
+        display: none;
+    }
+
+    .bigTextOne{
+        margin-top: 10px;
+        margin-right: 18px;
+    }
+
+    .normalText{
+        font-size: 180%;
+    }
+
+    .service{
+        height: 70px;
+    }
+
+    footer{
+        display: block;
+    }
+
+    .footOne{
+        width: 350px;
+        display: block;
+        text-align: left;
+        padding-left: 30px;
+    }
+
+    .footTwo{
+        display: block;
+        width: 90%;
+        padding-left: 20px;
+    }
 }
