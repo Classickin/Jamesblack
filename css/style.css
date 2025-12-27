@@ -1,4 +1,4 @@
-body{
+body {
     margin: 0;
     padding: 0;
     background-repeat: no-repeat;
@@ -7,7 +7,7 @@ body{
     height: 100vh;
 }
 
-header{
+header {
     width: 100%;
     height: 80px;
     display: flex;
@@ -15,14 +15,14 @@ header{
     justify-content: space-between;
 }
 
-.inHeaderOne{
+.inHeaderOne {
     width: 30%;
     height: 60px;
     display: flex;
     align-items: center;
 }
 
-.inHeaderTwo{
+.inHeaderTwo {
     width: 30%;
     height: 60px;
     display: flex;
@@ -32,7 +32,7 @@ header{
     padding-right: 20px;
 }
 
-.inHeaderThree{
+.inHeaderThree {
     width: 30%;
     height: 60px;
     display: inline-block;
@@ -41,29 +41,29 @@ header{
     padding-right: 20px;
 }
 
-.whiteLogo{
+.whiteLogo {
     height: 25px;
     margin-left: 30px;
 }
 
-.jText{
+.jText {
     color: white;
     font-weight: bold;
     margin-left: 20px;
     font-size: 20px;
 }
 
-a{
+a {
     text-decoration: none;
     color: white;
     font-size: 18px;
 }
 
-a:hover{
+a:hover {
     color: #3693cb;
 }
 
-.logAndSign{
+.logAndSign {
     color: white;
     border-style: solid;
     border-width: 1px;
@@ -78,32 +78,32 @@ a:hover{
     margin-left: 10px;
 }
 
-.logAndSign:hover{
+.logAndSign:hover {
     cursor: pointer;
     background-color: white;
     color: #3693cb;
     font-weight: bold;
 }
 
-.landingBox{
+.landingBox {
     width: 100%;
     display: grid;
     grid-template-columns: auto auto;
     margin-top: 40px;
 }
 
-.firstGrid{
+.firstGrid {
     display: inline-block;
     width: 850px;
 }
 
-.secondGrid{
+.secondGrid {
     display: grid;
     grid-template-columns: auto auto;
     margin-right: 30px;
 }
 
-.firstGridText{
+.firstGridText {
     color: white;
     margin-left: 30px;
     font-size: 300%;
@@ -111,7 +111,7 @@ a:hover{
     margin-bottom: 0;
 }
 
-.getStarted{
+.getStarted {
     background-color: white;
     border: none;
     color: #3693cb;
@@ -125,26 +125,26 @@ a:hover{
     border-radius: 20px;
 }
 
-.getStarted:hover{
+.getStarted:hover {
     cursor: pointer;
     opacity: 0.7;
 }
 
-.subSecond{
+.subSecond {
     display: flex;
     align-items: center;
 }
 
-.html{
+.html {
     width: 100px;
     margin-left: 60px;
 }
 
-.blueLink{
+.blueLink {
     color: #3693cb;
 }
 
-.newHeader{
+.newHeader {
     width: 100%;
     height: 60px;
     display: flex;
@@ -157,14 +157,14 @@ a:hover{
     top: 0;
 }
 
-.jbText{
+.jbText {
     color: black;
     font-weight: bold;
     margin-left: 20px;
     font-size: 20px;
 }
 
-.logSign{
+.logSign {
     color: #3693cb;
     border-style: solid;
     border-width: 1px;
@@ -179,25 +179,25 @@ a:hover{
     margin-left: 10px;
 }
 
-.logSign:hover{
+.logSign:hover {
     cursor: pointer;
     background-color: #3693cb;
     color: white;
     font-weight: bold;
 }
 
-.two{
+.two {
     color: black;
 }
 
-.firstDiv{
+.firstDiv {
     width: 100%;
     margin-top: 100px;
     display: grid;
     grid-template-columns: auto auto;
 }
 
-.bigTextOne{
+.bigTextOne {
     font-size: 250%;
     font-weight: bold;
     margin-left: 30px;
@@ -205,23 +205,23 @@ a:hover{
     margin-bottom: 0;
 }
 
-.textContainer{
+.textContainer {
     display: inline-block;
     margin-top: 0;
 }
 
-.spiralContainer{
+.spiralContainer {
     display: flex;
     align-items: center;
 }
 
-.blueSpiral{
+.blueSpiral {
     width: 300px;
     margin-left: 60px;
     margin-right: 30px;
 }
 
-.contactUsButton{
+.contactUsButton {
     padding-top: 10px;
     padding-bottom: 10px;
     padding-left: 20px;
@@ -236,7 +236,7 @@ a:hover{
     margin-right: 10px;
 }
 
-.vodButton{
+.vodButton {
     background-color: white;
     border-color: #3693cb;
     border-width: 1px;
@@ -250,17 +250,17 @@ a:hover{
     border-radius: 5px;
 }
 
-.contactUsButton:hover{
+.contactUsButton:hover {
     cursor: pointer;
     opacity: 0.7;
 }
 
-.vodButton:hover{
+.vodButton:hover {
     cursor: pointer;
     opacity: 0.7;
 }
 
-.ltcDiv{
+.ltcDiv {
     background-color: #3693cb;
     padding-top: 20px;
     padding-bottom: 20px;
@@ -270,23 +270,23 @@ a:hover{
     text-align: center;
 }
 
-.ltcLogo{
+.ltcLogo {
     height: 30px;
     opacity: 0.7;
 }
 
-.serviceDiv{
+.serviceDiv {
     width: 100%;
     display: block;
     text-align: center;
 }
 
-.blueBro{
+.blueBro {
     width: 100%;
     height: 80px;
 }
 
-.bigTextTwo{
+.bigTextTwo {
     color: black;
     font-weight: bold;
     font-size: 250%;
@@ -294,7 +294,7 @@ a:hover{
     margin-bottom: 20px;
 }
 
-.normalText{
+.normalText {
     color: black;
     font-size: 220%;
     margin-top: 0;
@@ -303,7 +303,7 @@ a:hover{
     margin-right: 30px;
 }
 
-.twoBox{
+.twoBox {
     width: 300px;
     height: 300px;
     background-color: white;
@@ -317,17 +317,17 @@ a:hover{
     vertical-align: middle;
 }
 
-.blueGraphic{
+.blueGraphic {
     width: 80px;
     margin-top: 70px;
 }
 
-.logText{
+.logText {
     color: black;
     font-size: 200%;
 }
 
-.clientBox{
+.clientBox {
     background-color: white;
     display: inline-block;
     width: 350px;
@@ -344,34 +344,34 @@ a:hover{
     padding-left: 30px;
 }
 
-.star{
+.star {
     width: 20px;
     display: inline-block;
 }
 
-.smallText{
+.smallText {
     font-size: 120%;
 }
 
-.oicon{
+.oicon {
     width: 60px;
 }
 
-.fDiv{
+.fDiv {
     display: block;
 }
 
-.sDiv{
+.sDiv {
     display: inline-block;
     vertical-align: middle;
 }
 
-.tDiv{
+.tDiv {
     display: inline-block;
     vertical-align: middle;
 }
 
-.sbt{
+.sbt {
     font-weight: bold;
     margin-left: 10px;
     font-size: 20px;
@@ -379,13 +379,13 @@ a:hover{
     margin-bottom: 0;
 }
 
-.sst{
+.sst {
     margin-top: 5px;
     margin-bottom: 0;
     margin-left: 10px;
 }
 
-footer{
+footer {
     background-color: #3A3E49;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -394,28 +394,28 @@ footer{
     justify-content: space-between;
 }
 
-.footOne{
+.footOne {
     width: 30%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
 
-.profileDiv{
+.profileDiv {
     display: inline-block;
     vertical-align: middle;
 }
 
-.profile{
+.profile {
     width: 60px;
 }
 
-.fFirst{
+.fFirst {
     display: inline-block;
     text-align: left;
     vertical-align: middle;
 }
 
-.bBigText{
+.bBigText {
     color: white;
     margin-top: 0;
     margin-bottom: 0;
@@ -424,7 +424,7 @@ footer{
     margin-left: 10px;
 }
 
-.bSmallText{
+.bSmallText {
     color: white;
     margin-top: 5px;
     margin-bottom: 0;
@@ -433,43 +433,42 @@ footer{
     vertical-align: middle;
 }
 
-.fSecond{
+.fSecond {
     text-align: left;
     margin-left: 80px;
     margin-top: 10px;
 }
 
-.footTwo{
+.footTwo {
     width: 40%;
     padding-top: 20px;
     padding-bottom: 20px;
     text-align: left;
     margin-right: 100px;
-    background-color: red;
 }
 
-.contactDiv{
+.contactDiv {
     margin-top: 10px;
 }
 
-.contact{
+.contact {
     width: 22px;
     margin-left: 10px;
     vertical-align: middle;
 }
 
-.firstAbout{
+.firstAbout {
     width: 100%;
     display: block;
     text-align: center;
     margin-top: 60px;
 }
 
-#mast{
+#mast {
     margin-top: 80px;
 }
 
-.pictures{
+.pictures {
     height: 350px;
     margin-right: 20px;
     border-radius: 30px;
@@ -477,13 +476,13 @@ footer{
     margin-bottom: 40px;
 }
 
-.service{
+.service {
     height: 100px;
     margin-bottom: 20px;
     margin-top: 50px;
 }
 
-.fullContainer{
+.fullContainer {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -491,7 +490,7 @@ footer{
     justify-content: center;
 }
 
-.loginBox{
+.loginBox {
     width: 350px;
     height: 400px;
     background: transparent;
@@ -502,7 +501,7 @@ footer{
     border-width: 2px;
 }
 
-.loginTextDiv{
+.loginTextDiv {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -510,13 +509,13 @@ footer{
     margin-top: 20px;
 }
 
-.loginText{
+.loginText {
     color: white;
     font-size: 150%;
     font-weight: bold;
 }
 
-.inputDiv{
+.inputDiv {
     display: inline-block;
     width: 100%;
     text-align: center;
@@ -524,7 +523,7 @@ footer{
     padding-bottom: 10px;
 }
 
-.mainInputBox{
+.mainInputBox {
     width: 80%;
     padding-left: 20px;
     padding-top: 10px;
@@ -539,35 +538,35 @@ footer{
     background-color: transparent;
 }
 
-.mainInputBox::placeholder{
+.mainInputBox::placeholder {
     color: white;
 }
 
-.forgotPasswordDiv{
+.forgotPasswordDiv {
     display: flex;
     padding-left: 30px;
     padding-top: 5px;
     padding-bottom: 5px;
 }
 
-.forgotPasswordText{
+.forgotPasswordText {
     color: white;
     font-size: 15px;
 }
 
-.forgotPasswordText:hover{
+.forgotPasswordText:hover {
     color: white;
     cursor: pointer;
     text-decoration: underline;
 }
 
-.loginButtonDiv{
+.loginButtonDiv {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.loginButton{
+.loginButton {
     border-style: none;
     padding-top: 15px;
     padding-bottom: 15px;
@@ -578,7 +577,7 @@ footer{
     margin-top: 10px;
 }
 
-.signupQuestionDiv{
+.signupQuestionDiv {
     display: flex;
     justify-content: space-between;
     padding-left: 30px;
@@ -588,124 +587,124 @@ footer{
     margin-top: 10px;
 }
 
-.accountQuestion{
+.accountQuestion {
     color: white;
 }
 
-.signupLink{
+.signupLink {
     color: white;
     font-size: 15px;
 }
 
-.signupLink:hover{
+.signupLink:hover {
     color: white;
     text-decoration: underline;
 }
 
-.upSpace{
+.upSpace {
     width: 100%;
     height: 40px;
     display: flex;
 }
 
-.userAndMenu{
+.userAndMenu {
     display: none;
 }
 
-.extraSpace{
+.extraSpace {
     display: block;
     width: 100%;
     height: 50px;
 }
 
-@media (max-width: 768px){
-    .inHeaderTwo{
+@media (max-width: 768px) {
+    .inHeaderTwo {
         display: none;
     }
 
-    .inHeaderThree{
+    .inHeaderThree {
         display: none;
     }
 
-    .userAndMenu{
+    .userAndMenu {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-right: 20px;
     }
 
-    .user{
+    .user {
         width: 25px;
         height: 25px;
         margin-right: 20px;
     }
 
-    .user:hover{
+    .user:hover {
         cursor: pointer;
         opacity: 0.5;
     }
 
-    .menu{
+    .menu {
         width: 25px;
         height: 20px;
     }
 
-    .menu:hover{
+    .menu:hover {
         cursor: pointer;
         opacity: 0.5;
     }
 
-    .landingBox{
+    .landingBox {
         display: block;
     }
 
-    .firstGrid{
+    .firstGrid {
         display: inline-block;
         width: 100vw;
     }
 
-    .secondGrid{
+    .secondGrid {
         display: none;
     }
 
-    .firstGridText{
+    .firstGridText {
         margin-right: 20px;
         font-size: 280%;
     }
 
-    .firstDiv{
+    .firstDiv {
         display: block;
     }
 
-    .spiralContainer{
+    .spiralContainer {
         display: none;
     }
 
-    .bigTextOne{
+    .bigTextOne {
         margin-top: 10px;
         margin-right: 18px;
     }
 
-    .normalText{
+    .normalText {
         font-size: 180%;
     }
 
-    .service{
+    .service {
         height: 70px;
     }
 
-    footer{
+    footer {
         display: block;
     }
 
-    .footOne{
+    .footOne {
         width: 350px;
         display: block;
         text-align: left;
         padding-left: 30px;
     }
 
-    .footTwo{
+    .footTwo {
         display: block;
         width: 90%;
         padding-left: 20px;
