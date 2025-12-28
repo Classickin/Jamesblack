@@ -8,3 +8,16 @@ document.getElementById("scrollBtn").addEventListener("click", function() {
         behavior: "smooth"
     });
 });
+
+//from test
+const openBtn = document.getElementById("openMenuBtn");
+const closeBtn = document.getElementById("closeMenuBtn");
+const sideMenu = document.getElementById("sideMenu");
+
+openBtn.addEventListener("click", () =>{
+    sideMenu.classList.add('show');
+});
+
+closeBtn.addEventListener("click", () =>{
+    sideMenu.classList.remove("show");
+});
