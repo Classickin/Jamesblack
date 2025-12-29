@@ -315,6 +315,7 @@ a:hover {
     margin-left: 50px;
     margin-bottom: 50px;
     vertical-align: middle;
+    text-align: center;
 }
 
 .blueGraphic {
@@ -625,6 +626,11 @@ footer {
     display: none;
 }
 
+.images{
+    display: inline-block;
+    text-align: center;
+}
+
 @media (max-width: 768px) {
     .inHeaderTwo {
         display: none;
@@ -677,7 +683,7 @@ footer {
 
     .firstGridText {
         margin-right: 20px;
-        font-size: 280%;
+        font-size: 230%;
     }
 
     .firstDiv {
@@ -690,15 +696,17 @@ footer {
 
     .bigTextOne {
         margin-top: 10px;
-        margin-right: 18px;
+        margin-right: 20px;
+        font-size: 230%;
     }
 
     .normalText {
-        font-size: 180%;
+        font-size: 160%;
     }
 
     .service {
         height: 70px;
+        margin-left: 30px;
     }
 
     footer {
@@ -807,5 +815,17 @@ footer {
 
 .menu-linksOne a:hover{
     opacity: 0.7;
+}
+
+.serviceDiv{
+    text-align: left;
+}
+
+.bigTextTwo{
+    margin-left: 30px;
+}
+
+.firstAbout{
+    text-align: left;
 }
 }
