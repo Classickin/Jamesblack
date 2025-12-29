@@ -7,7 +7,6 @@
     <link rel="icon" href="img/whiteLogo.png">
     <link rel="stylesheet" href="css/style.css">
     <title>Jamesblack | About</title>
-    <script src="script.js"></script>
 </head>
 <body>
     <header class="newHeader">
@@ -26,7 +25,7 @@
         </div>
         <div class="userAndMenu">
             <img src="img/black-login.png" alt="user" class="user">
-            <img src="img/black-menu.png" alt="menu" class="menu">
+            <img src="img/black-menu.png" alt="menu" class="menu" id="openMenuBtn">
         </div>
     </header>
     <div class="firstAbout">
@@ -57,5 +56,26 @@
         <img src="img/lux3.jpg" alt="l2" class="pictures">
         <img src="img/mjn.jpg" alt="l2" class="pictures">
     </div>
+        <div id="sideMenu" class="side-menu">
+<span id="closeMenuBtn" class="close-btn">&times;</span>
+    <nav class="menu-links">
+        <a href="home.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="services.html">Services</a>
+    </nav>
+</div>
+<script>
+    const openBtn = document.getElementById("openMenuBtn");
+const closeBtn = document.getElementById("closeMenuBtn");
+const sideMenu = document.getElementById("sideMenu");
+
+openBtn.addEventListener("click", () =>{
+    sideMenu.classList.add('show');
+});
+
+closeBtn.addEventListener("click", () =>{
+    sideMenu.classList.remove("show");
+});
+</script>
 </body>
 </html>

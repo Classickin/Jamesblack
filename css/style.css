@@ -727,6 +727,7 @@ footer {
     padding-top: 60px;
     z-index: 1000;
     display: block;
+    text-align: left;
 }
 
 .side-menu.show{
