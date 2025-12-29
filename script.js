@@ -21,3 +21,15 @@ openBtn.addEventListener("click", () =>{
 closeBtn.addEventListener("click", () =>{
     sideMenu.classList.remove("show");
 });
+
+const openBtnOne = document.getElementById("openMenuBtnOne");
+const closeBtnOne = document.getElementById("closeMenuBtnOne");
+const sideMenuOne = document.getElementById("sideMenuOne");
+
+openBtnOne.addEventListener("click", () =>{
+    sideMenuOne.classList.add('showOne');
+});
+
+closeBtnOne.addEventListener("click", () =>{
+    sideMenuOne.classList.remove("showOne");
+});

@@ -24,7 +24,7 @@
             <a href="signup.html"><button class="logAndSign">Sign Up</button></a> 
         </div>
         <div class="userAndMenu">
-            <img src="img/white-user.png" alt="user" class="user">
+            <img src="img/white-user.png" alt="user" class="user" id="openMenuBtnOne">
             <img src="img/white-menu.png" alt="menu" class="menu" id="openMenuBtn">
         </div>
     </header>
@@ -57,8 +57,28 @@
         <a href="services.html">Services</a>
     </nav>
 </div>
+<div id="sideMenuOne" class="side-menuOne">
+    <span id="closeMenuBtnOne" class="close-btnOne">&times;</span>
+        <nav class="menu-linksOne">
+            <a href="login.html">Login</a>
+            <a href="signup.html">Signup</a>
+        </nav>
+</div>
 <script>
-    const openBtn = document.getElementById("openMenuBtn");
+const openBtnOne = document.getElementById("openMenuBtnOne");
+const closeBtnOne = document.getElementById("closeMenuBtnOne");
+const sideMenuOne = document.getElementById("sideMenuOne");
+
+openBtnOne.addEventListener("click", () =>{
+    sideMenuOne.classList.add('showOne');
+});
+
+closeBtnOne.addEventListener("click", () =>{
+    sideMenuOne.classList.remove("showOne");
+});
+
+
+const openBtn = document.getElementById("openMenuBtn");
 const closeBtn = document.getElementById("closeMenuBtn");
 const sideMenu = document.getElementById("sideMenu");
 

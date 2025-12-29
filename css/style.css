@@ -621,6 +621,10 @@ footer {
     display: none;
 }
 
+.side-menuOne{
+    display: none;
+}
+
 @media (max-width: 768px) {
     .inHeaderTwo {
         display: none;
@@ -757,6 +761,51 @@ footer {
 }
 
 .menu-links a:hover{
+    opacity: 0.7;
+}
+    .side-menuOne{
+    position: fixed;
+    top: 0;
+    right: -300px;
+    width: 300px;
+    height: 100vh;
+    background-color: #3693cb;
+    color: white;
+    overflow-x: hidden;
+    transition: right 0.3s ease;
+    padding-top: 60px;
+    z-index: 1000;
+    display: block;
+    text-align: left;
+}
+
+.side-menuOne.showOne{
+    right: 0;
+}
+
+.close-btnOne{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.menu-linksOne{
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.menu-linksOne a{
+    padding: 10px 0;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    transition: color 0.2s;
+}
+
+.menu-linksOne a:hover{
     opacity: 0.7;
 }
 }
